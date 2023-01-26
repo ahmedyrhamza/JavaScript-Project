@@ -4,6 +4,7 @@ let scoreDiv = document.querySelector("#score");
 
 
 export class Bird {
+
     static count = 0;
     static score = 0;
 

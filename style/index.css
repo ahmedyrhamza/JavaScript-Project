@@ -1,7 +1,7 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
     word-spacing: 0.1vw;
     text-align: center;
     text-align-last: center;
@@ -29,7 +29,7 @@ body {
     align-content: center;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100vw;
     height: 100vh;
 }
@@ -45,8 +45,8 @@ body {
     align-self: center;
     align-content: center; 
     flex-direction: column;
-    border-radius: 15px;
-    border: 2px solid rgb(134, 131, 131);
+    border-radius: 1vw;
+    border: .15vw solid rgb(134, 131, 131);
 }
 
 
@@ -58,14 +58,14 @@ label {
 
 
 select[name=level] {
-    margin: 5px 0 2vh;
+    margin: 1vh 0 2vh;
     width: 30vw;
     height: 6vh;
     font-size: 2vw;
     background-color: #ebebe6;
     text-align: center;
     cursor:pointer;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 
 .defult-option {
@@ -79,7 +79,7 @@ select:hover {
 
 input[type="text"] {
     font-size: 1.8vw;
-    width: 25vw;
+    /* width: 25vw; */
     margin-top: 0.5vh;
     color: rgb(92, 91, 91);
     background-color: rgba(0, 0, 0, 0.199);
@@ -87,9 +87,9 @@ input[type="text"] {
     text-align: left;
     align-content: left;
     align-self: left;
-    border: 1px solid #000;
-    border-radius: 10px;
-    padding: 5px;
+    border: 0.1vw solid #000;
+    border-radius: 1vw;
+    padding: 0.5vh 0.3vw;
 }
 
 
@@ -101,8 +101,8 @@ button {
     font-size: 2vw;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
-    border-radius: 100px;
-    border: 2px solid #000;
+    border-radius: 2vw;
+    border: 0.2vw solid #000;
 }
 
 
