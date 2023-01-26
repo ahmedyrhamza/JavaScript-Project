@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    word-spacing: 0.1vw;
+    text-align: center;
+    text-align-last: center;
+    user-select: none;
+    color: #000;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: transparent;
+}
+
+body {
+    background: url(../resourses/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+}
+
+
+.content {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container {
+    width: 43vw;
+    padding: 0.5vh 0.5vw;
+    justify-content: space-around;
+    background-color: rgba(177, 176, 169, 0.4);
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    align-content: center; 
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid rgb(134, 131, 131);
+}
+
+
+label {
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+select[name=level] {
+    margin: 5px 0 2vh;
+    width: 30vw;
+    height: 6vh;
+    font-size: 2vw;
+    background-color: #ebebe6;
+    text-align: center;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+.defult-option {
+    display: none;
+}
+
+select:hover {
+    background: rgb(71, 70, 70);
+    color:azure;
+}
+
+input[type="text"] {
+    font-size: 1.8vw;
+    width: 25vw;
+    margin-top: 0.5vh;
+    color: rgb(92, 91, 91);
+    background-color: rgba(0, 0, 0, 0.199);
+    margin-bottom: 1.5vh;
+    text-align: left;
+    align-content: left;
+    align-self: left;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+button {
+    width: 10vw;
+    background-color: rgba(255, 255, 255, 0.692);
+    color: #56c06d;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 100px;
+    border: 2px solid #000;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: #05659c;
+    color: rgb(145, 218, 157);
+}
+
+
+
+.pointsTitle {
+    font-size: 2.5vw;
+    font-weight: bold;
+
+}
+
+
+div {
+    justify-content: center;
+    align-items: center;
+}
+
+
+div span{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+div.gray {
+    padding-top: 1vh;
+}
+
+
+div.gray > span{
+    color: blue;
+}
+
+
+div.black > span{
+    color: yellow;
+}
+
+
+div.blue > span{
+    color: red
+}
+
+
+img {
+    width: 5vw;
+    height: 7vh;
+}
+
+
+table {
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+
+caption {
+    font-size: 2.5vw;
+    font-weight: bold;
+    background-color: rgb(100 100 100 / 50%);
+}
+
+tr {
+    background-color: rgb(100 100 100 / 50%);
+}
+
+th {
+    font-size: 1.5vw;
+}
+
+td {
+    font-size: 1.3vw;
+}

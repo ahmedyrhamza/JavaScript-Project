@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <link href="./style/sweetalert.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/game.css">
+</head>
+<body>
+    <audio id="gameBgMusic" src="./resourses/gameBgMusic.mp3" preload="auto" loop></audio>
+    <audio id="shootSound" src="./resourses/shoot.mp3" preload="auto"></audio>
+    <audio id="bombTimer" src="./resourses/BombTimer.mp3" preload="auto"></audio>
+    <audio id="explosion" src="./resourses/explosion.mp3" preload="auto"></audio>
+    <div id="welcome">
+        <div id="WelcomePopUp">
+            <img src="./resourses/wel.png" alt="Welcome!">
+            <h1>Welcome </h1>
+            <span>
+                We hope you enjoy our game 
+            </span>
+            <span>
+                To win , you should kill 25 (Black and White) birds in specific time
+            </span>
+
+            <button>Start Game</button>
+        </div>
+    </div>
+    <section class="flex info-container">
+        <div class="box">welcome : <span id="name" draggable="false"></span></div>
+        <div class="box score-box">score : <span id="score" draggable="false">0</span></div>
+        <div class="box">time limit : <span id="limit" draggable="false">1:00</span></div>
+        <div class="box">birds killed : <span id="birds" draggable="false">0</span></div>
+    </section>
+
+    <script src="./scripts/sweetalert2.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> -->
+    <script src="scripts/game.js"></script>
+</body>
+</html>
+
+
+
