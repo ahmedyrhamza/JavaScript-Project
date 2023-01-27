@@ -134,7 +134,7 @@ startBtn.onclick = function () {
 /******************************************************************* Timer *******************************************************************/
     let timer = setInterval(function () {
 
-        seconds -= 10;
+        seconds -= 1;
         limit.innerText = `0:${seconds}`;
         if (seconds == 0) {
             clearInterval(createBirdsId);
@@ -145,7 +145,7 @@ startBtn.onclick = function () {
                 // win popup window 
                 Swal.fire({
                     title: "YOU WON!",
-                    text: "Play Again ?",
+                    text: "Your Score: "+Bird.score+"\n .. Play Again ?",
                     color: '#ffffff',
                     position: 'center',
                     imageUrl: 'resourses/Win.gif',
@@ -174,7 +174,7 @@ startBtn.onclick = function () {
                 // lose popup window
                 Swal.fire({
                     title: "YOU LOST!",
-                    text: "You have to kill 25 (Black and White) birds and Your score must be more than 50! \n Wanna Try Again ?",
+                    text: "You killed only "+Bird.count+" (Black and White) birds with score "+Bird.score+", You have to kill 25 (Black and White) birds and Your score must be more than 50 TO WIN! \n Wanna Try Again ?",
                     color: '#ffffff',
                     imageUrl: 'resourses/Lost.gif',
                     imageWidth: 400,
