@@ -161,7 +161,7 @@ startBtn.onclick = function () {
                     gameBgMusic.currentTime = 0;
                     if (result.value) {
                         welcomeName.innerHTML = `Welcome Back ${userName}`;
-                        welcomeScore.innerHTML = `We hope you enjoy our game.. Your last score: ${JSON.parse(localStorage[userName]).score}`;
+                        welcomeScore.innerHTML = `We hope you enjoy our game.. Your last score: ${Bird.score}`;
                         welcomeBg.classList.remove("out");
                         welcomePopUp.classList.remove("out");
                     } 
@@ -189,7 +189,7 @@ startBtn.onclick = function () {
                     gameBgMusic.currentTime = 0;
                     if (result.value) {
                         welcomeName.innerHTML = `Welcome Back ${userName}`;
-                        welcomeScore.innerHTML = `We hope you enjoy our game.. Your last score: ${JSON.parse(localStorage[userName]).score}`;
+                        welcomeScore.innerHTML = `We hope you enjoy our game.. Your last score: ${Bird.score}`;
                         welcomeBg.classList.remove("out");
                         welcomePopUp.classList.remove("out");
                         // setTimeout(function () {
