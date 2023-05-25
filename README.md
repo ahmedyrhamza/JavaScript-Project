@@ -1,4 +1,4 @@
-# JavaScript-Project
+# Shooting Birds 
 
 ## About The Project
 
